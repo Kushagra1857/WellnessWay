@@ -9,18 +9,28 @@ export default function Neutral1c1a() {
         <h3>Explore What Might Be Going On</h3>
         <ul>
           <li>
-            <strong>Feeling overwhelmed or stressed:</strong> Detachment can be a coping mechanism for stress. Acknowledge what's overwhelming you and consider simple stress-reducing activities.
+            <strong>Feeling overwhelmed or stressed:</strong> Detachment can be
+            a coping mechanism for stress. Acknowledge what's overwhelming you
+            and consider simple stress-reducing activities.
           </li>
           <li>
-            <strong>Lack of sleep or physical fatigue:</strong> Fatigue can dull emotions. Prioritize rest and see if your emotional responsiveness returns with more energy.
+            <strong>Lack of sleep or physical fatigue:</strong> Fatigue can dull
+            emotions. Prioritize rest and see if your emotional responsiveness
+            returns with more energy.
           </li>
           <li>
-            <strong>Recent significant event (positive or negative):</strong> Major events, even positive ones, can sometimes lead to temporary emotional numbness. Allow yourself time to process.
+            <strong>Recent significant event (positive or negative):</strong>{" "}
+            Major events, even positive ones, can sometimes lead to temporary
+            emotional numbness. Allow yourself time to process.
           </li>
         </ul>
       </section>
 
-      <p>It is okay to feel disconnected sometimes. These sensations often pass when we rest, reflect, and care for ourselves. You are not alone—take things at your pace.</p>
+      <p>
+        It is okay to feel disconnected sometimes. These sensations often pass
+        when we rest, reflect, and care for ourselves. You are not alone—take
+        things at your pace.
+      </p>
 
       <style jsx>{`
         .recommendations-container {
@@ -31,19 +41,19 @@ export default function Neutral1c1a() {
           border-radius: 20px;
           box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
           font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-          color: #33691e;
+          color: #101d0bff;
         }
 
         h2 {
           text-align: center;
           font-size: 1.8rem;
           margin-bottom: 25px;
-          color: #558b2f;
+          color: #17230eff;
         }
 
         h3 {
           font-size: 1.3rem;
-          color: #689f38;
+          color: #10170aff;
           margin-bottom: 15px;
         }
 

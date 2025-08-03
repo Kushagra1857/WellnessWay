@@ -7,7 +7,8 @@ export default function Neutral1c2() {
   return (
     <div className="question-container">
       <h2>
-        When it happens sometimes, does it feel like a way to cope with stress, or something else?
+        When it happens sometimes, does it feel like a way to cope with stress,
+        or something else?
       </h2>
       <ul className="option-list">
         <li>
@@ -32,17 +33,16 @@ export default function Neutral1c2() {
           max-width: 700px;
           margin: 60px auto;
           padding: 40px;
-          background: #fefbe9;
+          background: #ffffff;
           border-radius: 20px;
-          box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
           font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-          text-align: center;
         }
 
         h2 {
-          font-size: 1.5rem;
+          font-size: 1.6rem;
           margin-bottom: 30px;
-          color: #bc6c25;
+          color: #333;
         }
 
         .option-list {
@@ -51,14 +51,14 @@ export default function Neutral1c2() {
         }
 
         .option-list li {
-          margin-bottom: 16px;
+          margin-bottom: 15px;
         }
 
         .option-list button {
           width: 100%;
           padding: 14px 20px;
           font-size: 1rem;
-          background-color: #dda15e;
+          background-color: #a976a9;
           color: white;
           border: none;
           border-radius: 10px;
@@ -67,12 +67,12 @@ export default function Neutral1c2() {
         }
 
         .option-list button:hover {
-          background-color: #bc6c25;
+          background-color: #8a5b8d;
           transform: scale(1.02);
         }
 
         .option-list button:active {
-          transform: scale(0.97);
+          transform: scale(0.98);
         }
       `}</style>
     </div>

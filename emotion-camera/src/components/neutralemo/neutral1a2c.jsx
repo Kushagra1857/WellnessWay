@@ -33,17 +33,16 @@ export default function Neutral1a2c() {
           max-width: 700px;
           margin: 60px auto;
           padding: 40px;
-          background: #f2f9ff;
+          background: #ffffff;
           border-radius: 20px;
           box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
           font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-          text-align: center;
         }
 
         h2 {
-          font-size: 1.5rem;
+          font-size: 1.6rem;
           margin-bottom: 30px;
-          color: #2c3e50;
+          color: #333;
         }
 
         .option-list {
@@ -59,7 +58,7 @@ export default function Neutral1a2c() {
           width: 100%;
           padding: 14px 20px;
           font-size: 1rem;
-          background-color: #3797e6;
+          background-color: #a976a9;
           color: white;
           border: none;
           border-radius: 10px;
@@ -68,7 +67,7 @@ export default function Neutral1a2c() {
         }
 
         .option-list button:hover {
-          background-color: #2f82c5;
+          background-color: #8a5b8d;
           transform: scale(1.02);
         }
 

@@ -5,11 +5,23 @@ export default function Neutral1a2c1() {
     <div className="recommendations-container">
       <h2>Social interactions have powerful emotional benefits:</h2>
       <ul>
-        <li>Supportive connections are vital for well-being — keep nurturing those relationships.</li>
-        <li>Laughter and shared enjoyment boost your mood — look for more joyful moments.</li>
-        <li>Social time can be a healthy distraction — just remember to also care for underlying emotions when needed.</li>
+        <li>
+          Supportive connections are vital for well-being — keep nurturing those
+          relationships.
+        </li>
+        <li>
+          Laughter and shared enjoyment boost your mood — look for more joyful
+          moments.
+        </li>
+        <li>
+          Social time can be a healthy distraction — just remember to also care
+          for underlying emotions when needed.
+        </li>
       </ul>
-      <p>Staying connected is key to emotional balance. You are doing something great for your mental health!</p>
+      <p>
+        Staying connected is key to emotional balance. You are doing something
+        great for your mental health!
+      </p>
 
       <style jsx>{`
         .recommendations-container {
@@ -26,7 +38,7 @@ export default function Neutral1a2c1() {
         h2 {
           font-size: 1.6rem;
           margin-bottom: 20px;
-          color: #6a1b9a;
+          color: #271134ff;
         }
 
         ul {
