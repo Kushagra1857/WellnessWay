@@ -9,21 +9,26 @@ export default function Neutral1d1a() {
         <h3>Reflection & Suggestions</h3>
         <ul>
           <li>
-           
-            <em>Rest, short-term fatigue:</em> Prioritize rest today. Sometimes, a good night's sleep is all that's needed to reset.
+            <em>Rest, short-term fatigue:</em> Prioritize rest today. Sometimes,
+            a good night's sleep is all that's needed to reset.
           </li>
           <li>
-            
-            <em>Sleep hygiene, medical check-up:</em> Persistent fatigue impacting daily life warrants attention. Review your sleep hygiene and consider consulting a doctor.
+            <em>Sleep hygiene, medical check-up:</em> Persistent fatigue
+            impacting daily life warrants attention. Review your sleep hygiene
+            and consider consulting a doctor.
           </li>
           <li>
-            <em>Energy management:</em> If fatigue is chronic, explore energy management strategies like pacing yourself and identifying energy drains.
+            <em>Energy management:</em> If fatigue is chronic, explore energy
+            management strategies like pacing yourself and identifying energy
+            drains.
           </li>
         </ul>
       </section>
 
       <p>
-        Everyone gets tired sometimes, but consistent fatigue deserves care and awareness. A few simple habits or a quick check-in with a health professional could make a big difference.
+        Everyone gets tired sometimes, but consistent fatigue deserves care and
+        awareness. A few simple habits or a quick check-in with a health
+        professional could make a big difference.
       </p>
 
       <style jsx>{`
@@ -35,19 +40,19 @@ export default function Neutral1d1a() {
           border-radius: 20px;
           box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
           font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-          color: #6d4c41;
+          color: #281711ff;
         }
 
         h2 {
           text-align: center;
           font-size: 1.8rem;
           margin-bottom: 25px;
-          color: #ef6c00;
+          color: #32261dff;
         }
 
         h3 {
           font-size: 1.3rem;
-          color: #fb8c00;
+          color: #261e15ff;
           margin-bottom: 15px;
         }
 

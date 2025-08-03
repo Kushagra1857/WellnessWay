@@ -6,7 +6,9 @@ export default function Neutral1b3() {
 
   return (
     <div className="question-container">
-      <h2>How does social connection contribute to your calm and relaxation?</h2>
+      <h2>
+        How does social connection contribute to your calm and relaxation?
+      </h2>
       <ul className="option-list">
         <li>
           <button onClick={() => navigate("/neutral1b1a")}>
@@ -30,17 +32,16 @@ export default function Neutral1b3() {
           max-width: 700px;
           margin: 60px auto;
           padding: 40px;
-          background: #f0fbf4;
+          background: #ffffff;
           border-radius: 20px;
-          box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
           font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-          text-align: center;
         }
 
         h2 {
-          font-size: 1.5rem;
+          font-size: 1.6rem;
           margin-bottom: 30px;
-          color: #2d6a4f;
+          color: #333;
         }
 
         .option-list {
@@ -49,14 +50,14 @@ export default function Neutral1b3() {
         }
 
         .option-list li {
-          margin-bottom: 16px;
+          margin-bottom: 15px;
         }
 
         .option-list button {
           width: 100%;
           padding: 14px 20px;
           font-size: 1rem;
-          background-color: #38b000;
+          background-color: #a976a9;
           color: white;
           border: none;
           border-radius: 10px;
@@ -65,12 +66,12 @@ export default function Neutral1b3() {
         }
 
         .option-list button:hover {
-          background-color: #2d943d;
+          background-color: #8a5b8d;
           transform: scale(1.02);
         }
 
         .option-list button:active {
-          transform: scale(0.97);
+          transform: scale(0.98);
         }
       `}</style>
     </div>

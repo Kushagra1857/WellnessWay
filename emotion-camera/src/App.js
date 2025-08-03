@@ -1,14 +1,14 @@
 import React from "react";
 import { Routes, Route, Link, useLocation } from "react-router-dom";
-import "./App.css";
+// import "./App.css";
 
 import Signup from "./components/Signup";
 import Login from "./components/Login";
-import DoctorDashboard from './components/DoctorDashboard';
+import DoctorDashboard from "./components/DoctorDashboard";
 import Home from "./components/Home";
 import EmotionDetection from "./components/EmotionDetection";
 import MindfulExercises from "./components/MindfulExercises";
-import AboutUs from './components/AboutUs';
+import AboutUs from "./components/AboutUs";
 // import Calculator from './components/Calculator';
 
 //SAD
@@ -338,20 +338,17 @@ import Disgust1c2b from "./components/disgustemo/disgust1c2b";
 import Disgust1c3 from "./components/disgustemo/disgust1c3";
 import Disgust1c3a from "./components/disgustemo/disgust1c3a";
 import Disgust1c3b from "./components/disgustemo/disgust1c3b";
- 
-
 
 function App() {
   return (
     <div className="app-container">
-
       <Routes>
-         <Route path="/" element={<Signup />} />
+        <Route path="/" element={<Signup />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
-        
+
         <Route path="/doctor-dashboard" element={<DoctorDashboard />} />
-         
+
         <Route path="/home" element={<Home />} />
         <Route path="/emotion-detection" element={<EmotionDetection />} />
         <Route path="/insights" element={<MindfulExercises />} />

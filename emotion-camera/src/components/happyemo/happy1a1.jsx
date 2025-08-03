@@ -25,7 +25,7 @@ export default function Happy1a1() {
         h2 {
           font-size: 1.5rem;
           margin-bottom: 16px;
-          color: #2e5339;
+          color: #132719ff;
         }
       `}</style>
     </div>

@@ -5,11 +5,22 @@ export default function Neutral1a3a1() {
     <div className="recommendations-container">
       <h2>You're building a truly positive mindset:</h2>
       <ul>
-        <li>Gratitude is a powerful practice — continue finding things to appreciate.</li>
-        <li>Mindfulness keeps you present and grounded — keep up your practice.</li>
-        <li>Acceptance is key to inner peace — focusing on what you can control is wise.</li>
+        <li>
+          Gratitude is a powerful practice — continue finding things to
+          appreciate.
+        </li>
+        <li>
+          Mindfulness keeps you present and grounded — keep up your practice.
+        </li>
+        <li>
+          Acceptance is key to inner peace — focusing on what you can control is
+          wise.
+        </li>
       </ul>
-      <p>These habits support lasting emotional well-being. Keep nurturing your mindset!</p>
+      <p>
+        These habits support lasting emotional well-being. Keep nurturing your
+        mindset!
+      </p>
 
       <style jsx>{`
         .recommendations-container {
@@ -26,7 +37,7 @@ export default function Neutral1a3a1() {
         h2 {
           font-size: 1.6rem;
           margin-bottom: 20px;
-          color: #8d6e63;
+          color: #151211ff;
         }
 
         ul {

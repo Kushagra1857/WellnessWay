@@ -5,11 +5,23 @@ export default function Neutral1a1b1() {
     <div className="recommendations-container">
       <h2>You're doing great at maintaining emotional peace:</h2>
       <ul>
-        <li>Setting boundaries is crucial for protecting your peace — keep practicing this skill!</li>
-        <li>Nurturing supportive relationships creates a peaceful environment — value these connections.</li>
-        <li>Identifying and minimizing stressors helps maintain your calm — great strategy!</li>
+        <li>
+          Setting boundaries is crucial for protecting your peace — keep
+          practicing this skill!
+        </li>
+        <li>
+          Nurturing supportive relationships creates a peaceful environment —
+          value these connections.
+        </li>
+        <li>
+          Identifying and minimizing stressors helps maintain your calm — great
+          strategy!
+        </li>
       </ul>
-      <p>Protecting your peace is an act of strength. Keep cultivating your inner calm.</p>
+      <p>
+        Protecting your peace is an act of strength. Keep cultivating your inner
+        calm.
+      </p>
 
       <style jsx>{`
         .recommendations-container {
@@ -26,7 +38,7 @@ export default function Neutral1a1b1() {
         h2 {
           font-size: 1.6rem;
           margin-bottom: 20px;
-          color: #2f855a;
+          color: #224f38ff;
         }
 
         ul {

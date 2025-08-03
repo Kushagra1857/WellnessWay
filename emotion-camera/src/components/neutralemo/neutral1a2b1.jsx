@@ -3,13 +3,27 @@ import React from "react";
 export default function Neutral1a2b1() {
   return (
     <div className="recommendations-container">
-      <h2>It is great to reflect on the positive impact of resolving things:</h2>
+      <h2>
+        It is great to reflect on the positive impact of resolving things:
+      </h2>
       <ul>
-        <li>Celebrating small wins boosts your mood and builds confidence — keep recognizing them!</li>
-        <li>Resolving issues helps reduce stress — continue addressing things that weigh on you.</li>
-        <li>Taking action brings a sense of control — nurture that empowered feeling.</li>
+        <li>
+          Celebrating small wins boosts your mood and builds confidence — keep
+          recognizing them!
+        </li>
+        <li>
+          Resolving issues helps reduce stress — continue addressing things that
+          weigh on you.
+        </li>
+        <li>
+          Taking action brings a sense of control — nurture that empowered
+          feeling.
+        </li>
       </ul>
-      <p>Every step you take contributes to emotional resilience. You're doing great!</p>
+      <p>
+        Every step you take contributes to emotional resilience. You're doing
+        great!
+      </p>
 
       <style jsx>{`
         .recommendations-container {
@@ -26,7 +40,7 @@ export default function Neutral1a2b1() {
         h2 {
           font-size: 1.6rem;
           margin-bottom: 20px;
-          color: #2e7d32;
+          color: #122613ff;
         }
 
         ul {

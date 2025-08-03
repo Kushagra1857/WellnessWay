@@ -30,7 +30,7 @@ export default function Neutral1a2a() {
           max-width: 700px;
           margin: 60px auto;
           padding: 40px;
-          background: #f0f9ff;
+          background: #ffffff;
           border-radius: 20px;
           box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
           font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -55,7 +55,7 @@ export default function Neutral1a2a() {
           width: 100%;
           padding: 14px 20px;
           font-size: 1rem;
-          background-color: #5ca9e9;
+          background-color: #a976a9;
           color: white;
           border: none;
           border-radius: 10px;
@@ -64,7 +64,7 @@ export default function Neutral1a2a() {
         }
 
         .option-list button:hover {
-          background-color: #4a91ca;
+          background-color: #8a5b8d;
           transform: scale(1.02);
         }
 

@@ -13,8 +13,7 @@ body {
       rgba(226, 232, 240, 0.1) 50%,
       rgba(203, 213, 224, 0.1) 100%
     ),
-    url("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/emotionaldetectbgimg.jpg-AQOCWNNkpd3Xu2bNRZmDw1w5bOrZsw.jpeg")
-      center/cover no-repeat fixed;
+    url("D:\flask_model_project\image.jpg") center/cover no-repeat fixed;
   min-height: 100vh;
   overflow-x: hidden;
   position: relative;
