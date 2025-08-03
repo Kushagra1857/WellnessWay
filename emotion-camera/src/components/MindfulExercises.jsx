@@ -1,10 +1,11 @@
 "use client"
+
 import { useState } from "react"
-import { useNavigate} from "react-router-dom" 
+import { useNavigate } from "react-router-dom"
 
 export default function MindfulExercises() {
   const [activeExercise, setActiveExercise] = useState(null)
-  const navigate = useNavigate();
+  const navigate = useNavigate()
 
   const exercises = [
     {
@@ -187,8 +188,7 @@ export default function MindfulExercises() {
   ]
 
   const handleNewSession = () => {
-   navigate("/emotion-detection")
-
+    navigate("/emotion-detection")
   }
 
   return (
@@ -196,7 +196,6 @@ export default function MindfulExercises() {
       <button className="new-session-btn" onClick={handleNewSession}>
         New Session
       </button>
-
       <div className="header-section">
         <h1 className="main-title">Mindful Exercises</h1>
         <p className="subtitle">Discover inner peace through these beautiful mindfulness practices</p>
@@ -239,21 +238,19 @@ export default function MindfulExercises() {
       <style jsx>{`
         .mindful-container {
           min-height: 100vh;
-          background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
           padding: 2rem;
           font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
           position: relative;
         }
-
         .new-session-btn {
-          position: fixed;
+          position: absolute;
           top: 2rem;
           right: 2rem;
           background: rgba(255, 255, 255, 0.95);
           border: 2px solid rgba(102, 126, 234, 0.3);
           border-radius: 25px;
           padding: 0.8rem 1.5rem;
-          font-size: 1rem;
+          font-size: 1.3rem;
           font-weight: 600;
           color: #667eea;
           cursor: pointer;
@@ -263,38 +260,34 @@ export default function MindfulExercises() {
           z-index: 1000;
           animation: fadeInRight 0.6s ease-out;
         }
-
         .new-session-btn:hover {
           background: rgba(102, 126, 234, 0.1);
           border-color: rgba(102, 126, 234, 0.5);
           transform: translateY(-2px);
           box-shadow: 0 8px 30px rgba(102, 126, 234, 0.2);
         }
-
         .new-session-btn:active {
           transform: translateY(0);
         }
-
         .header-section {
           text-align: center;
           margin-bottom: 3rem;
           animation: fadeInDown 0.8s ease-out;
         }
         .main-title {
-          font-size: 3.5rem;
-          font-weight: 700;
-          color: #ffffff;
+          font-size: 4rem;
+          font-weight: 650;
+          color: #000000ff;
           margin-bottom: 1rem;
           text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
           background: linear-gradient(135deg, #ffffff 0%, #f0f8ff 100%);
           -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
           background-clip: text;
         }
         .subtitle {
-          font-size: 1.2rem;
-          color: rgba(255, 255, 255, 0.9);
-          font-weight: 300;
+          font-size: 1.8rem;
+          color: #000000ff;
+          font-weight: 450;
           text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
         }
         .exercises-grid {
@@ -510,12 +503,10 @@ export default function MindfulExercises() {
         }
         @media (max-width: 480px) {
           .new-session-btn {
-            position: relative;
-            top: 0;
-            right: 0;
-            margin-bottom: 1rem;
-            width: 100%;
-            text-align: center;
+            top: 1rem;
+            right: 1rem;
+            padding: 0.5rem 1rem;
+            font-size: 0.8rem;
           }
           .main-title {
             font-size: 2rem;
