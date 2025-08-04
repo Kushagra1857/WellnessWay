@@ -1,12 +1,13 @@
 // components/neutral/Q3A2.jsx
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import Navbar from "../Navbar";
 export default function Neutral1a2b() {
   const navigate = useNavigate();
 
   return (
     <div className="question-container">
+      <Navbar/>
       <h2>
         How did resolving that issue or completing that task make you feel?
       </h2>

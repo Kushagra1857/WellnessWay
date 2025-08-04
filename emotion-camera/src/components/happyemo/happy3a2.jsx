@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Happy3a2() {
   return (
     <div className="recommendations-container">
+      <Navbar/>
       <h2>Appreciate calm: It's good to appreciate calm days.</h2>
       <h2>Sometimes, the absence of strong emotions can be a form of peace.</h2>
       <h2>Stillness can be grounding — embrace it fully.</h2>

@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Angry2b3b1() {
   return (
     <div className="recommendation-page">
+      <Navbar />
       <h2>Seeking social support: </h2>
       <p>
         Reach out to trusted friends or family. Sharing your feelings can

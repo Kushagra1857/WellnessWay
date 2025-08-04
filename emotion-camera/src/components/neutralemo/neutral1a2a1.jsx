@@ -1,9 +1,10 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Neutral1a2a1() {
   return (
     <div className="recommendations-container">
-      <h2>Here’s a reflection based on your calm activity:</h2>
+      <Navbar/>
+      <h2>Here's a reflection based on your calm activity:</h2>
       <ul>
         <li>
            Quiet activities like reading or music are great for calm. Make time for them regularly.

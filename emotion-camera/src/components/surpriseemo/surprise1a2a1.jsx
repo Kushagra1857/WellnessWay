@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Surprise1a2a1() {
   return (
     <div className="recommendations-container">
+      <Navbar/>
 
       <ul>
         <li>Feeling appreciated is a cornerstone of strong relationships. Continue to nurture these connections.</li>

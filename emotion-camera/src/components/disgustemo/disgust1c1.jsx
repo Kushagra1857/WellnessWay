@@ -1,11 +1,12 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import Navbar from "../Navbar";
 export default function Disgust1c1() {
   const navigate = useNavigate();
 
   return (
     <div className="question-container">
+      <Navbar/>
       <h2>
         Q: That's good to hear you're feeling neutral or calm.
         Is this a typical mood for you?

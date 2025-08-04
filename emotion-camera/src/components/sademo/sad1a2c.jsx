@@ -1,11 +1,12 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import Navbar from "../Navbar";
 export default function Sad1a2b2() {
   const navigate = useNavigate();
 
   return (
     <div className="question-container">
+      <Navbar/>
       <h2>
         Q: Have you noticed any minor changes in your energy levels or your
         interest in things you usually enjoy, even if slight?

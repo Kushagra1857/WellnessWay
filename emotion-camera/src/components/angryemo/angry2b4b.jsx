@@ -1,11 +1,12 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import Navbar from "../Navbar";
 export default function Angry2b4b() {
   const navigate = useNavigate();
 
   return (
     <div className="question-container">
+      <Navbar />
       <h2>
         Q: That's perfectly valid. Sometimes these feelings do pass. If it
         doesn't pass, or if it intensifies, would you then be open to

@@ -1,11 +1,12 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import Navbar from "../Navbar";
 export default function Fear1c3a() {
   const navigate = useNavigate();
 
   return (
     <div className="question-container">
+      <Navbar/>
       <h2>What might be contributing to that specific feeling?</h2>
       <ul className="option-list">
         <li>

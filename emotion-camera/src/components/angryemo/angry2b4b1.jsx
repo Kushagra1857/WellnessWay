@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Angry2b4b1() {
   return (
     <div className="recommendation-page">
+      <Navbar />
       <h2>Monitor and re-evaluate: </h2>
       <p>
         Keep an eye on how you're feeling. If the annoyance persists or worsens,

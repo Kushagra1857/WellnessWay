@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Angry2a3b1() {
   return (
     <div className="recommendation-page">
+      <Navbar />
       <h2>Holistic well-being check: </h2>
       <p>Even subtle changes in sleep or appetite can indicate stress.</p>
       <p>

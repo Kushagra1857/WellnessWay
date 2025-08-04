@@ -1,11 +1,12 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import Navbar from "../Navbar";
 export default function Surprise1a3() {
   const navigate = useNavigate();
 
   return (
     <div className="question-container">
+      <Navbar/>
       <h2>
         Q: How did achieving something unexpected make you feel about your own capabilities?
       </h2>

@@ -1,12 +1,13 @@
 // components/Fear1a1High.jsx
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import Navbar from "../Navbar";
 export default function Fear1a1b() {
   const navigate = useNavigate();
 
   return (
     <div className="question-container">
+      <Navbar/>
       <h2>
         Q: Does this intense fear make it hard to think clearly or take action?
       </h2>

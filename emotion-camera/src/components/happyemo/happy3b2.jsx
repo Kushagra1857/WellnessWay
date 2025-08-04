@@ -1,8 +1,11 @@
 import React from "react";
+import Navbar from "../Navbar";
 
 export default function Happy3b2() {
   return (
     <div className="recommendations-container">
+      <Navbar/>
+      
       <h2>Nurture peaceful activities:</h2>
       <h2>
         These activities are excellent for promoting calm. Make sure to

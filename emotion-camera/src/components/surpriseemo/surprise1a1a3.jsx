@@ -1,9 +1,10 @@
 // components/RecommendationSavoring.jsx
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Surprise1a1a3() {
   return (
     <div className="recommendations-container">
+      <Navbar/>
       <ul>
         <li>Pause and take a deep breath—let the moment settle in</li>
         <li>Notice the small details: sounds, sights, feelings, or smells</li>

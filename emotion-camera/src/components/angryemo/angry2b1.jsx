@@ -1,11 +1,12 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import Navbar from "../Navbar";
 export default function Angry2b1() {
   const navigate = useNavigate();
 
   return (
     <div className="question-container">
+      <Navbar />
       <h2>
         Q: How are you typically managing this stress, and do you feel your
         current methods are effective?

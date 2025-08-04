@@ -1,11 +1,13 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import Navbar from "../Navbar";
 
 export default function Angry1() {
   const navigate = useNavigate();
 
   return (
     <div className="question-container">
+      <Navbar />
       <h2>
         Q: I understand. Can you describe what triggered this feeling? Was it an
         event, a specific person, or something else?

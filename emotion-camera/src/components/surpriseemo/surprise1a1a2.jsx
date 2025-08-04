@@ -1,9 +1,10 @@
 // components/RecommendationSharingJoy.jsx
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Surprise1a1a2() {
   return (
     <div className="recommendations-container">
+      <Navbar/>
     
       <ul>
         

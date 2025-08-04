@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Neutral1b1a() {
   return (
     <div className="recommendations-container">
+      <Navbar/>
       <h2>Calm and Centered: Reinforce Your Strategies</h2>
 
       <section>

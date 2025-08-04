@@ -1,11 +1,12 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import Navbar from "../Navbar";
 export default function Angry2a4a() {
   const navigate = useNavigate();
 
   return (
     <div className="question-container">
+      <Navbar />
       <h2>
         Q: Could you describe these changes? For example, are you sleeping more
         or less, eating more or less, or feeling more tired?

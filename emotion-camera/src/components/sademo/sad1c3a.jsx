@@ -1,11 +1,12 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import Navbar from "../Navbar";
 export default function Sad1c3a() {
   const navigate = useNavigate();
 
   return (
     <div className="question-container">
+      <Navbar />
       <h2>
         Q: What keeps you from acting on those thoughts, and what support
         systems do you have in place?

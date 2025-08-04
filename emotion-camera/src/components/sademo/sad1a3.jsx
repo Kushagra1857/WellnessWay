@@ -1,11 +1,12 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import Navbar from "../Navbar";
 export default function Sad1a3() {
   const navigate = useNavigate();
 
   return (
     <div className="question-page">
+      <Navbar/>
       <h2>
         Q: Sometimes a little self-care can help. Are you willing to take up
         some actions to boost your heart and mind to cope up and live to the

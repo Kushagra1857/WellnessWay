@@ -1,11 +1,12 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import Navbar from "../Navbar";
 export default function Sad1a2b2a() {
   const navigate = useNavigate();
 
   return (
     <div className="sad-message-container">
+      <Navbar/>
       <h2>
         It sounds like this sadness might be taking a little more out of you.{" "}
         <br />

@@ -1,15 +1,31 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Surprise1b4a1() {
   return (
     <div className="recommendation-container">
-    
+      <Navbar />
+
       <ul>
-        <li>Write down what you remember — even fragmented thoughts can help make sense of the situation.</li>
-        <li>Talk to a supportive friend, family member, or therapist to organize your thoughts.</li>
-        <li>Revisit the event after some time — a calmer mind may spot details missed during the initial shock.</li>
-        <li>Give yourself grace — clarity doesn't always come immediately, and that is okay.</li>
-        <li>Consider journaling as a safe outlet to unpack your emotions and improve clarity over time.</li>
+        <li>
+          Write down what you remember — even fragmented thoughts can help make
+          sense of the situation.
+        </li>
+        <li>
+          Talk to a supportive friend, family member, or therapist to organize
+          your thoughts.
+        </li>
+        <li>
+          Revisit the event after some time — a calmer mind may spot details
+          missed during the initial shock.
+        </li>
+        <li>
+          Give yourself grace — clarity doesn't always come immediately, and
+          that is okay.
+        </li>
+        <li>
+          Consider journaling as a safe outlet to unpack your emotions and
+          improve clarity over time.
+        </li>
       </ul>
 
       <style jsx>{`

@@ -2,6 +2,7 @@
 
 import { useRef, useEffect, useState, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
+import Navbar from "./Navbar";
 
 export default function EmotionDetection() {
   const videoRef = useRef(null);
@@ -215,6 +216,7 @@ export default function EmotionDetection() {
         position: "relative",
       }}
     >
+      <Navbar />
       {/* Background Pattern Overlay */}
       <div
         style={{

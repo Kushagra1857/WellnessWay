@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Angry2a3a2() {
   return (
     <div className="recommendation-page">
+      <Navbar />
       <h2>Acceptance of past, future planning: </h2>
       <p>It's natural to replay events.</p>
       <p>

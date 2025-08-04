@@ -1,12 +1,13 @@
 // components/neutral/neutral1a.jsx
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import Navbar from "../Navbar";
 export default function Neutral1a() {
   const navigate = useNavigate();
 
   return (
     <div className="question-container">
+      <Navbar/>
       <h2>
         Q: That's good to hear. Is this a typical state for you, or do you feel particularly neutral today?
       </h2>

@@ -1,12 +1,13 @@
 // components/Surprise1a1c.jsx
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import Navbar from "../Navbar";
 export default function Surprise1a1c() {
   const navigate = useNavigate();
 
   return (
     <div className="question-container">
+      <Navbar/>
       <h2>
         Q: Did that laughter or smile feel natural and spontaneous?
       </h2>

@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Sad1a1a1() {
   return (
     <div className="recommendations-container">
+      <Navbar/>
       <h2>
         Thanks for sharing. Changes in sleep and appetite can sometimes be
         linked to our mood. It might be helpful to keep a brief note of these

@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Sad1a2a2() {
   return (
     <div className="recommendation-page">
+      <Navbar/>
       <h2>
         Healing does take effort, and you're doing well by acknowledging it.
       </h2>

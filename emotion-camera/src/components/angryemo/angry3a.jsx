@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Angry3a() {
   return (
     <div className="recommendation-page">
+      <Navbar />
       <h2>You mentioned feeling a little confused.</h2>
       <p>
         It's okay to not have all the answers. Confusion is often a sign that

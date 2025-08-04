@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Angry2a3b2() {
   return (
     <div className="recommendation-page">
+      <Navbar />
       <h2>Monitor well-being: </h2>
       <p>
         That's good. Continue to monitor your overall well-being, as persistent

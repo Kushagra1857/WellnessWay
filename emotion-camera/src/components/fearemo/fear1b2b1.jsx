@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Fear1b2b1() {
   return (
     <div className="recommendation-container">
+      <Navbar/>
 
       <p>
         Pushing through can be exhausting. While resilience is good, consider if      addressing the anxiety directly might offer more relief. You might try:

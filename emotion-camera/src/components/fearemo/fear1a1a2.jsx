@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Fear1a1a2() {
   return (
     <div className="recommendations-container">
+      <Navbar/>
     
       <ul>
         <li>Try progressive muscle relaxation — tense and release each muscle group</li>

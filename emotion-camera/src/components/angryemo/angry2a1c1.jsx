@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Angry2a1c1() {
   return (
     <div className="recommendation-page">
+      <Navbar />
       <h2>Introduce simple coping: </h2>
       <p>Even if it passes, having active tools can be empowering.</p>
       <p>

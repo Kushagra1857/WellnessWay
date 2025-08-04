@@ -1,9 +1,10 @@
 
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Surprise1a1a1() {
   return (
     <div className="recommendations-container">
+      <Navbar/>
       <ul>
         <li>Take a moment to identify something you're excited to do</li>
         <li>Use this energy to start a creative task, hobby, or goal</li>

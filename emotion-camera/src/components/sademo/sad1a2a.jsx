@@ -1,11 +1,12 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import Navbar from "../Navbar";
 export default function Sad1a2() {
   const navigate = useNavigate();
 
   return (
     <div className="question-page">
+      <Navbar/>
       <h2>
         Q: I understand. Sometimes small setbacks can have a bigger impact than
         we expect. Have you had a chance to process or talk about it?

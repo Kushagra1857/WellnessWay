@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Angry2a4a1() {
   return (
     <div className="recommendation-page">
+      <Navbar />
       <h2>Sleep hygiene: </h2>
       <p>Lingering annoyance can disrupt sleep. </p>
       <p>Establish a relaxing bedtime routine and avoid screens before bed.</p>

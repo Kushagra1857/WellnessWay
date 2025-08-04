@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Angry2b1a1() {
   return (
     <div className="recommendation-page">
+      <Navbar />
       <h2>Reinforce stress coping: </h2>
       <p>
         Prioritizing your proven stress-coping methods, even in small doses, is

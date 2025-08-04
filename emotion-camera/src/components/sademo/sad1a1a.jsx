@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Sad1a1a() {
   return (
     <div className="recommendations-container">
+      <Navbar/>
       <h2>Here are some gentle self-care ideas:</h2>
       <ul>
         <li> Listen to your favorite music</li>

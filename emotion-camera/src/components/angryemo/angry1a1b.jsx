@@ -1,9 +1,11 @@
 // components/angry/AngryRecs.jsx
 import React from "react";
+import Navbar from "../Navbar";
 
 export default function Angry1a1b() {
   return (
     <div className="recommendation-page">
+      <Navbar />
       <h2>Suggestions for Managing Anger</h2>
       <p>
         There can always be the means to eradcate yoru anger and direct to

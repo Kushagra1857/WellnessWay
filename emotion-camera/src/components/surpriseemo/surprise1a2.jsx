@@ -1,12 +1,13 @@
 // components/Surprise1a2.jsx
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import Navbar from "../Navbar";
 export default function Surprise1a2() {
   const navigate = useNavigate();
 
   return (
     <div className="question-container">
+      <Navbar/>
       <h2>
         Q: How did this kind gesture or thoughtful act make you feel about the person who did it?
       </h2>

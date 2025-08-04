@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Angry2a3a1() {
   return (
     <div className="recommendation-page">
+      <Navbar />
       <h2>Breaking rumination: </h2>
       <p>Dwelling on unfairness can keep anger alive.</p>
       <p>

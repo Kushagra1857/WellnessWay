@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Disgust1a31() {
   return (
     <div className="question-container">
+      <Navbar/>
       <h2>Recommendation</h2>
       <ul>
         <li>Look for advocacy groups aligned with your values.</li>

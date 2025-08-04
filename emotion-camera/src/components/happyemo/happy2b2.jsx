@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Happy2b2() {
   return (
     <div className="recommendations-container">
+      <Navbar/>
       <h2>Sense of accomplishment: </h2>
       <h2>
         Achieving even small goals can bring a great sense of satisfaction and

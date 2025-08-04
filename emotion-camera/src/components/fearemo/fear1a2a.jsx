@@ -1,12 +1,13 @@
 // components/FearQ4A21.jsx
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import Navbar from "../Navbar";
 export default function Fear1a2a() {
   const navigate = useNavigate();
 
   return (
     <div className="question-container">
+      <Navbar/>
       <h2>
         Q: Does this frequent worrying interfere with your daily activities or sleep?
       </h2>

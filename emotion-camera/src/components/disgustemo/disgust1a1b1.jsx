@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Disgust1a1b1() {
   return (
     <div className="recommendation-container">
+      <Navbar/>
       <h2>Recommendations</h2>
       <ul>
         <li>Find a safe space to step away if needed.</li>

@@ -1,12 +1,13 @@
 // components/neutral/Neutral1b1.jsx
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import Navbar from "../Navbar";
 export default function Neutral1b1() {
   const navigate = useNavigate();
 
   return (
     <div className="question-container">
+      <Navbar/>
       <h2>
         Which specific technique do you find most effective for relaxation?
       </h2>

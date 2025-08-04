@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Angry2a4a3() {
   return (
     <div className="recommendation-page">
+      <Navbar />
       <h2>Mindful eating: </h2>
       <p>Pay attention to your eating patterns.</p>
       <p>Try to eat balanced meals and avoid emotional eating when annoyed.</p>

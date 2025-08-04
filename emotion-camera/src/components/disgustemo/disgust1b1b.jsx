@@ -1,11 +1,12 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import Navbar from "../Navbar";
 export default function Disgust1b1b() {
   const navigate = useNavigate();
 
   return (
     <div className="question-container">
+      <Navbar/>
       <h2>
         Q: Are you noticing any general physical discomfort that accompanies this sudden uneasiness (e.g., generalized nausea, restlessness, feeling 'icky')?
       </h2>

@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Angry2b4a1() {
   return (
     <div className="recommendation-page">
+      <Navbar />
       <h2>Mindful eating, nutrition: </h2>
       <p>
         Even small dietary changes can impact mood. Focus on balanced meals and

@@ -1,11 +1,12 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { useNavigate } from "react-router-dom"
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import Navbar from "./Navbar";
 
 export default function MindfulExercises() {
-  const [activeExercise, setActiveExercise] = useState(null)
-  const navigate = useNavigate()
+  const [activeExercise, setActiveExercise] = useState(null);
+  const navigate = useNavigate();
 
   const exercises = [
     {
@@ -118,7 +119,8 @@ export default function MindfulExercises() {
       title: "Visualization Meditation",
       duration: "10-20 minutes",
       icon: "🌅",
-      description: "Use guided imagery to create peaceful mental scenes that promote relaxation and positive emotions.",
+      description:
+        "Use guided imagery to create peaceful mental scenes that promote relaxation and positive emotions.",
       steps: [
         "Find a comfortable position",
         "Close your eyes and breathe deeply",
@@ -147,7 +149,8 @@ export default function MindfulExercises() {
       title: "Mindful Listening",
       duration: "5-15 minutes",
       icon: "👂",
-      description: "Develop deeper awareness by focusing entirely on sounds around you without judgment or analysis.",
+      description:
+        "Develop deeper awareness by focusing entirely on sounds around you without judgment or analysis.",
       steps: [
         "Sit quietly and close your eyes",
         "Notice sounds near and far",
@@ -176,7 +179,8 @@ export default function MindfulExercises() {
       title: "Present Moment Awareness",
       duration: "5-20 minutes",
       icon: "⏰",
-      description: "Simply observe whatever arises in your awareness without trying to change or fix anything.",
+      description:
+        "Simply observe whatever arises in your awareness without trying to change or fix anything.",
       steps: [
         "Sit comfortably and breathe naturally",
         "Notice thoughts, feelings, sensations",
@@ -185,27 +189,36 @@ export default function MindfulExercises() {
         "Accept whatever you experience",
       ],
     },
-  ]
+  ];
 
   const handleNewSession = () => {
-    navigate("/emotion-detection")
-  }
+    navigate("/emotion-detection");
+  };
 
   return (
     <div className="mindful-container">
+      <Navbar />
       <button className="new-session-btn" onClick={handleNewSession}>
         New Session
       </button>
       <div className="header-section">
         <h1 className="main-title">Mindful Exercises</h1>
-        <p className="subtitle">Discover inner peace through these beautiful mindfulness practices</p>
+        <p className="subtitle">
+          Discover inner peace through these beautiful mindfulness practices
+        </p>
       </div>
       <div className="exercises-grid">
         {exercises.map((exercise) => (
           <div
             key={exercise.id}
-            className={`exercise-card ${activeExercise === exercise.id ? "active" : ""}`}
-            onClick={() => setActiveExercise(activeExercise === exercise.id ? null : exercise.id)}
+            className={`exercise-card ${
+              activeExercise === exercise.id ? "active" : ""
+            }`}
+            onClick={() =>
+              setActiveExercise(
+                activeExercise === exercise.id ? null : exercise.id
+              )
+            }
           >
             <div className="card-header">
               <span className="exercise-icon">{exercise.icon}</span>
@@ -229,7 +242,9 @@ export default function MindfulExercises() {
             )}
             <div className="card-footer">
               <span className="expand-text">
-                {activeExercise === exercise.id ? "Click to collapse" : "Click to expand"}
+                {activeExercise === exercise.id
+                  ? "Click to collapse"
+                  : "Click to expand"}
               </span>
             </div>
           </div>
@@ -529,5 +544,5 @@ export default function MindfulExercises() {
         }
       `}</style>
     </div>
-  )
+  );
 }

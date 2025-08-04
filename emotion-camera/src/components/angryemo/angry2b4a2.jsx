@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Angry2b4a2() {
   return (
     <div className="recommendation-page">
+      <Navbar />
       <h2>Digital detox: </h2>
       <p>
         Reducing screen time, especially before bed, can improve sleep and

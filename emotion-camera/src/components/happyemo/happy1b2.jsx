@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Happy1b2() {
   return (
     <div className="recommendations-container">
+      <Navbar/>
       <h2>Nurture connections: </h2>
       <h2>
         Connecting with others and engaging in enjoyable activities are powerful

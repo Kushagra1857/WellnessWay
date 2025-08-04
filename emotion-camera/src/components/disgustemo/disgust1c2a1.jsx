@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function disgust1c2a1() {
   return (
     <div className="recommendations-container">
+      <Navbar/>
       <ul>
         <li>Ensure you're building in enough rest and recovery after periods of high activity</li>
         <li>Balance busy days with time to unwind and recharge</li>

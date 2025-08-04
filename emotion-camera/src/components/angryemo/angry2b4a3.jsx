@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Angry2b4a3() {
   return (
     <div className="recommendation-page">
+      <Navbar />
       <h2>Gentle exercise: </h2>
       <p>
         Even a short daily walk can significantly boost mood and reduce stress

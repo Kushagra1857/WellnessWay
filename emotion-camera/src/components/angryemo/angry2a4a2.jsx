@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Angry2a4a2() {
   return (
     <div className="recommendation-page">
+      <Navbar />
       <h2>Energy management: </h2>
       <p>
         Increased sleep or fatigue can be a sign your body is trying to cope.

@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Happy3a1() {
   return (
     <div className="recommendations-container">
+      <Navbar/>
       <h2>A stable, neutral state is a sign of balance.</h2>
       <h2>Continue to maintain your well-being practices.</h2>
       <h2>Small habits each day build long-term resilience.</h2>

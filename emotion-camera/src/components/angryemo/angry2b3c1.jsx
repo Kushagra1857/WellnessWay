@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Angry2b3c1() {
   return (
     <div className="recommendation-page">
+      <Navbar />
       <h2>Re-establish routine: </h2>
       <p>
         Re-establishing a consistent daily routine can provide a sense of
