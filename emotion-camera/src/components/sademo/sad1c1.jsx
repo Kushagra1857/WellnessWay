@@ -1,5 +1,5 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Sad1c1() {
   return (
     <div
@@ -15,6 +15,7 @@ export default function Sad1c1() {
         lineHeight: "1.6",
       }}
     >
+      <Navbar/>
       <h2 style={{ color: "red", fontWeight: "bold", textAlign: "center" }}>
         🚨 STOP! Your safety is the most important thing right now.
       </h2>

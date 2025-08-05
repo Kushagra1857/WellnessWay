@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Angry2a1b1() {
   return (
     <div className="recommendation-page">
+      <Navbar />
       <h2>Cognitive reframing: </h2>
       <p>It's great you have healthy distractions!</p>
       <p>

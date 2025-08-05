@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Sad1a2a1() {
   return (
     <div className="recommendation-page">
+      <Navbar/>
       <h2>That's good to hear.</h2>
       <p>
         Even a little relief matters. Here are some things that may help you

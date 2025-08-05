@@ -1,13 +1,16 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import Navbar from "./Navbar";
 
 export default function Surprise() {
   const navigate = useNavigate();
 
   return (
     <div className="question-container">
+      <Navbar />
       <h2>
-        Q1: It looks like you might be feeling surprised! How would you describe this feeling right now?
+        Q1: It looks like you might be feeling surprised! How would you describe
+        this feeling right now?
       </h2>
       <ul className="option-list">
         <li>

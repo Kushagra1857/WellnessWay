@@ -1,9 +1,10 @@
 // components/angry/AngryRecs.jsx
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Angry1c1a() {
   return (
     <div className="recommendation-page">
+      <Navbar />
       <p>
         These may cause severe affects to your health and can also affect you
         mentally. It is very often suggested to calm down in times of anger and

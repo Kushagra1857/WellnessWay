@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Angry2b4b2() {
   return (
     <div className="recommendation-page">
+      <Navbar />
       <h2>Gentle reminder for future: </h2>
       <p>
         Okay. Just a gentle reminder that your well-being is important, and

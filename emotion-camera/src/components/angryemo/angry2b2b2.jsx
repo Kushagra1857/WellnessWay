@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Angry2b2b2() {
   return (
     <div className="recommendation-page">
+      <Navbar />
       <h2>Good resilience: </h2>
       <p>
         That's positive! However, consistent good sleep is vital for long-term

@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Angry2b3a1() {
   return (
     <div className="recommendation-page">
+      <Navbar />
       <h2>Self-care during change: </h2>
       <p>Making time for yourself during positive changes is smart.</p>
       <p>Continue to prioritize your well-being amidst new demands.</p>

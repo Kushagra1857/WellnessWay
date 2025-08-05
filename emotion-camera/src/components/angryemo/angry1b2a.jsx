@@ -1,9 +1,11 @@
 // components/angry/AngryRecs.jsx
 import React from "react";
+import Navbar from "../Navbar";
 
 export default function Angry1b2a() {
   return (
     <div className="recommendation-page">
+      <Navbar />
       <p>
         It's natural to feel upset when things are outside our control,
         especially when it impacts something important. While you can't change

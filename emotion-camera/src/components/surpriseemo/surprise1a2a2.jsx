@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Surprise1a2a2() {
   return (
     <div className="recommendations-container">
+      <Navbar/>
 
 
       <ul>

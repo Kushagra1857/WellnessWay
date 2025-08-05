@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Neutral1c2a() {
   return (
     <div className="recommendations-container">
+      <Navbar />
       <h2>Understanding Emotional Detachment</h2>
 
       <section>

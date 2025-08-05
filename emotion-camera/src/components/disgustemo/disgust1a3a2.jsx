@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Disgust1a3a2() {
   return (
     <div className="question-container">
+      <Navbar/>
       <h2>Recommendation</h2>
       <ul>
         <li>Take time to reflect on why you're choosing to disengage.</li>

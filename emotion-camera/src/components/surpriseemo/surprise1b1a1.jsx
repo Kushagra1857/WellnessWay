@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Surprise1b1a1() {
   return (
     <div className="recommendations-container">
+      <Navbar/>
       <ul>
         <li>Focus on small grounding tasks: hold a textured object, describe your surroundings, or take a deep breath.</li>
         <li>Limit overwhelming input (e.g., news, social media) while you recover from shock.</li>

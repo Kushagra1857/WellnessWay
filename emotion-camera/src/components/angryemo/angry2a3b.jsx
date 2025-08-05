@@ -1,11 +1,13 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import Navbar from "../Navbar";
 
 export default function Angry2a3b() {
   const navigate = useNavigate();
 
   return (
     <div className="question-container">
+      <Navbar />
       <h2>
         Q: If it's just a background feeling, does it affect your sleep or
         appetite, even subtly?

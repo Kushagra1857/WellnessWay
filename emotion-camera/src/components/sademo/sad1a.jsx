@@ -1,12 +1,13 @@
 // components/sad/sad1a.jsx
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import Navbar from "../Navbar";
 export default function Sad1a() {
   const navigate = useNavigate();
 
   return (
     <div className="question-container">
+      <Navbar/>
       <h2>
         Q: I understand. Has this feeling been present for a short while, or has
         it lingered for more than a day or two?

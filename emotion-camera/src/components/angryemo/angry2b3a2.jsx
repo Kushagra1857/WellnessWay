@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Angry2b3a2() {
   return (
     <div className="recommendation-page">
+      <Navbar />
       <h2>Utilize support systems: </h2>
       <p>
         Leaning on your support system is a healthy way to navigate transitions.

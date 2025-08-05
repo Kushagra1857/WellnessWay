@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Angry2a2a1() {
   return (
     <div className="recommendation-page">
+      <Navbar />
       <h2>Brief calming techniques: </h2>
       <p>Taking a short break can reset your focus. </p>
       <p>Even a 5-minute walk or a few deep breaths can make a difference.</p>

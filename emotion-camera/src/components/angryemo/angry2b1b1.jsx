@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Angry2b1b1() {
   return (
     <div className="recommendation-page">
+      <Navbar />
       <h2>Introduce stress management techniques: </h2>
       <p>
         Mindfulness and progressive muscle relaxation are great tools. There are

@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Angry2b1a2() {
   return (
     <div className="recommendation-page">
+      <Navbar />
       <h2>Micro-breaks, time management: </h2>
       <p>Lingering negativity can be draining.</p>
       <p>

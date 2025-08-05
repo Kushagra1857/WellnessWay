@@ -1,14 +1,16 @@
 // components/neutral/neutral1d1.jsx
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import Navbar from "../Navbar";
 export default function Neutral1d1() {
   const navigate = useNavigate();
 
   return (
     <div className="question-container">
+      <Navbar />
       <h2>
-        Q: How long have you been feeling tired, and is it impacting your daily activities?
+        Q: How long have you been feeling tired, and is it impacting your daily
+        activities?
       </h2>
       <ul className="option-list">
         <li>

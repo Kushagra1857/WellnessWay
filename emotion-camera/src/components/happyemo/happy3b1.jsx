@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Happy3b1() {
   return (
     <div className="recommendations-container">
+      <Navbar/>
       <h2>
         Reinforce calming techniques: It's wonderful you have effective ways to
         find calm.

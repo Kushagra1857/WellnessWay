@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Happy2a2() {
   return (
     <div className="recommendations-container">
+      <Navbar/>
       <h2>Positive mindset: </h2>
       <h2>
         Cultivating acceptance and a grateful perspective are powerful tools for

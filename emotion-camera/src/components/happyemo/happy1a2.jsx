@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Happy1a2() {
   return (
     <div className="recommendations-container">
+      <Navbar/>
       <h2>Appreciating transient joy: </h2>
       <h2>It's wonderful to appreciate joy in the moment. </h2>
       <h2>

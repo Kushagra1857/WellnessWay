@@ -1,9 +1,11 @@
 // components/angry/AngryRecs.jsx
 import React from "react";
+import Navbar from "../Navbar";
 
 export default function Angry1a3a() {
   return (
     <div className="recommendation-page">
+      <Navbar />
       <p>
         When anger is this intense and physical, focusing on immediate calming
         can help. Try taking slow, deep breaths, focusing on exhaling longer

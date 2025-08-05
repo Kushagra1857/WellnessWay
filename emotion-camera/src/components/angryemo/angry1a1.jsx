@@ -1,11 +1,13 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import Navbar from "../Navbar";
 
 export default function Angry1a1() {
   const navigate = useNavigate();
 
   return (
     <div className="question-container">
+      <Navbar />
       <h2>
         Q: Do you think there could be some ways to redirect your anger?? Or do
         you need some suggestions to eliminate your anger to make it productive?

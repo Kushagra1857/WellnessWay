@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Angry2b3b2() {
   return (
     <div className="recommendation-page">
+      <Navbar />
       <h2>Problem-solving resources: </h2>
       <p>
         Focus on what you can control. Seek practical advice or resources

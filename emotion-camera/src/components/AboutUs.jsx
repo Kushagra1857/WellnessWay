@@ -2,10 +2,12 @@ import mansiImg from "./assets/mansi.jpg";
 import tusharImg from "./assets/tushar.jpg";
 import kushagraImg from "./assets/kushagra.jpg";
 import shrutikaImg from "./assets/shrutika.jpg";
+import Navbar from "./Navbar";
 
 const AboutUs = () => {
   return (
     <div style={styles.body}>
+      <Navbar />
       <div style={styles.backgroundOverlay}></div>
       <div style={styles.container}>
         {/* Two Cards Section */}

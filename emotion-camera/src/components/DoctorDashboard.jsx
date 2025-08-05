@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import { useAuth } from '../context/AuthContext';
-import './DoctorDashboard.css';
-import { useNavigate } from 'react-router-dom';
+import React, { useState, useEffect } from "react";
+import { useAuth } from "../context/AuthContext";
+import "./DoctorDashboard.css";
+import { useNavigate } from "react-router-dom";
+import Navbar from "./Navbar";
 
 const DoctorDashboard = () => {
-  const [searchQuery, setSearchQuery] = useState('');
+  const [searchQuery, setSearchQuery] = useState("");
   const [users, setUsers] = useState([]);
   const [selectedUser, setSelectedUser] = useState(null);
   const [emotions, setEmotions] = useState([]);
@@ -14,8 +15,8 @@ const DoctorDashboard = () => {
 
   useEffect(() => {
     if (!authLoading) {
-      if (!user || user.role !== 'doctor') {
-        navigate('/login');
+      if (!user || user.role !== "doctor") {
+        navigate("/login");
       }
     }
   }, [user, authLoading, navigate]);
@@ -27,21 +28,23 @@ const DoctorDashboard = () => {
   const handleSearch = async (e) => {
     e.preventDefault();
     if (!searchQuery.trim()) return;
-    
+
     setLoading(true);
     try {
       const response = await fetch(
-        `http://localhost:3001/api/users/search?query=${encodeURIComponent(searchQuery)}`,
+        `http://localhost:3001/api/users/search?query=${encodeURIComponent(
+          searchQuery
+        )}`,
         {
           headers: {
-            'Authorization': `Bearer ${localStorage.getItem('token')}`
-          }
+            Authorization: `Bearer ${localStorage.getItem("token")}`,
+          },
         }
       );
       const data = await response.json();
       setUsers(data);
     } catch (err) {
-      console.error('Search failed:', err);
+      console.error("Search failed:", err);
     } finally {
       setLoading(false);
     }
@@ -54,15 +57,15 @@ const DoctorDashboard = () => {
         `http://localhost:3001/api/emotions/user/${userId}`,
         {
           headers: {
-            'Authorization': `Bearer ${localStorage.getItem('token')}`
-          }
+            Authorization: `Bearer ${localStorage.getItem("token")}`,
+          },
         }
       );
       const data = await response.json();
       setEmotions(data);
-      setSelectedUser(users.find(u => u._id === userId));
+      setSelectedUser(users.find((u) => u._id === userId));
     } catch (err) {
-      console.error('Failed to fetch emotions:', err);
+      console.error("Failed to fetch emotions:", err);
     } finally {
       setLoading(false);
     }
@@ -70,8 +73,9 @@ const DoctorDashboard = () => {
 
   return (
     <div className="doctor-dashboard">
+      <Navbar />
       <h1>Doctor Dashboard</h1>
-      
+
       <div className="search-section">
         <form onSubmit={handleSearch}>
           <input
@@ -81,7 +85,7 @@ const DoctorDashboard = () => {
             placeholder="Search users by name or email"
           />
           <button type="submit" disabled={loading}>
-            {loading ? 'Searching...' : 'Search'}
+            {loading ? "Searching..." : "Search"}
           </button>
         </form>
       </div>
@@ -91,10 +95,10 @@ const DoctorDashboard = () => {
           <h2>Found Users</h2>
           <ul>
             {users.map((user) => (
-              <li 
-                key={user._id} 
+              <li
+                key={user._id}
                 onClick={() => fetchUserEmotions(user._id)}
-                className={selectedUser?._id === user._id ? 'active' : ''}
+                className={selectedUser?._id === user._id ? "active" : ""}
               >
                 {user.name} ({user.email})
               </li>

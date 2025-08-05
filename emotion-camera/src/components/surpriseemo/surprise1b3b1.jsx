@@ -1,16 +1,37 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Surprise1b3b1() {
   return (
     <div className="recommendation-container">
-    
+      <Navbar />
+
       <ul>
-        <li>Recognize this clarity as a strength—it helps in making grounded decisions in stressful situations.</li>
-        <li>Continue practicing mindfulness or breathing techniques to stay in tune with both body and mind.</li>
-        <li>Journaling such experiences may help you track how your body responds and how you manage it mentally.</li>
-        <li> Engage in regular activities that promote body-mind awareness, such as yoga, tai chi, or mindful walking.</li>
-        <li>Listening to calming music or nature sounds can help train your nervous system to recover quickly.</li>
-        <li> Consider using guided relaxation apps during stressful times to help maintain clarity and calm.</li>
+        <li>
+          Recognize this clarity as a strength—it helps in making grounded
+          decisions in stressful situations.
+        </li>
+        <li>
+          Continue practicing mindfulness or breathing techniques to stay in
+          tune with both body and mind.
+        </li>
+        <li>
+          Journaling such experiences may help you track how your body responds
+          and how you manage it mentally.
+        </li>
+        <li>
+          {" "}
+          Engage in regular activities that promote body-mind awareness, such as
+          yoga, tai chi, or mindful walking.
+        </li>
+        <li>
+          Listening to calming music or nature sounds can help train your
+          nervous system to recover quickly.
+        </li>
+        <li>
+          {" "}
+          Consider using guided relaxation apps during stressful times to help
+          maintain clarity and calm.
+        </li>
       </ul>
 
       <style jsx>{`

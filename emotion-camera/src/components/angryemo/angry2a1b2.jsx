@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Angry2a1b2() {
   return (
     <div className="recommendation-page">
+      <Navbar />
       <p>
         Using humor can be a fantastic way to diffuse annoyance and prevent it
         from escalating.

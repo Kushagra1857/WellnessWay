@@ -1,11 +1,12 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import Navbar from "../Navbar";
 export default function Sad1a2() {
   const navigate = useNavigate();
 
   return (
     <div className="question-page">
+      <Navbar/>
       <h2>
         Q: Is there anything specific that might have triggered this feeling,
         even if it feels minor?

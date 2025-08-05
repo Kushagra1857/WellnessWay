@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function fear1b2a1() {
   return (
     <div className="recommend-container">
+      <Navbar/>
       <h2>Recommendation</h2>
       <p>
         <strong>Continue support:</strong> That's a positive step. Continue with your current support plan and communicate any changes you experience.

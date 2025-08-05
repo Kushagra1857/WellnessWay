@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Sad1a2b() {
   return (
     <div className="recommendations-container">
+      <Navbar/>
       <h2>
         It sounds like you're experiencing more than just sadness, and these
         feelings of hopelessness can be very heavy. Please know that these are

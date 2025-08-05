@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Angry2b2b1() {
   return (
     <div className="recommendation-page">
+      <Navbar />
       <h2>Monitor sleep patterns: </h2>
       <p>
         It's good to notice these subtle effects. Continue to monitor your sleep

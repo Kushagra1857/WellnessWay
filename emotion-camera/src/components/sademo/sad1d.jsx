@@ -1,11 +1,12 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import Navbar from "../Navbar";
 export default function Sad1d() {
   const navigate = useNavigate();
 
   return (
     <div className="question-container">
+      <Navbar />
       <h2 className="question-text">
         Q: Thank you for clarifying. Sometimes facial expressions can be
         misleading. How would you describe your current feeling then?

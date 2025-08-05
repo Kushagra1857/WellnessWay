@@ -1,26 +1,23 @@
 // components/neutral/neutral1d.jsx
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import Navbar from "../Navbar";
 export default function Neutral1d() {
   const navigate = useNavigate();
 
   return (
     <div className="question-container">
+      <Navbar />
       <h2>
-        Q: Thank you for clarifying. Sometimes facial expressions can be misleading.
-        How would you describe your current feeling then?
+        Q: Thank you for clarifying. Sometimes facial expressions can be
+        misleading. How would you describe your current feeling then?
       </h2>
       <ul className="option-list">
         <li>
-          <button onClick={() => navigate("/neutral1d1")}>
-            a) Tired.
-          </button>
+          <button onClick={() => navigate("/neutral1d1")}>a) Tired.</button>
         </li>
         <li>
-          <button onClick={() => navigate("/sad1a")}>
-            b) A little sad.
-          </button>
+          <button onClick={() => navigate("/sad1a")}>b) A little sad.</button>
         </li>
         <li>
           <button onClick={() => navigate("/angry1a")}>

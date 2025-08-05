@@ -1,12 +1,13 @@
 // components/neutral/neutral1a1.jsx
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import Navbar from "../Navbar";
 export default function Neutral1a1() {
   const navigate = useNavigate();
 
   return (
     <div className="question-container">
+      <Navbar/>
       <h2>
         Q: What aspects of your life do you think contribute to this consistent
         sense of balance?

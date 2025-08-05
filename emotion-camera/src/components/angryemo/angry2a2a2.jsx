@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Angry2a2a2() {
   return (
     <div className="recommendation-page">
+      <Navbar />
       <h2>Mood shifting activities: </h2>
       <p>
         Engaging in something you enjoy, even briefly, can effectively shift

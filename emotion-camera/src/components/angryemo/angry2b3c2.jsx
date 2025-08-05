@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Angry2b3c2() {
   return (
     <div className="recommendation-page">
+      <Navbar />
       <h2>Break down challenges: </h2>
       <p>
         Focusing on one challenge at a time can make it feel more manageable.

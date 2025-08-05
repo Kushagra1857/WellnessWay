@@ -1,6 +1,7 @@
 "use client";
 import { useNavigate, Link } from "react-router-dom";
 import "../App.css";
+import Navbar from "./Navbar";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -11,6 +12,7 @@ export default function Home() {
 
   return (
     <div style={styles.container}>
+      <Navbar />
       <div style={styles.overlay}>
         {/* Main Hero Card - Resized and Enhanced */}
         <div style={{ ...styles.card, animation: "fadeIn 1s ease-out" }}>

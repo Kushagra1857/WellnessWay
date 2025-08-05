@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Happy2a1() {
   return (
     <div className="recommendations-container">
+      <Navbar/>
       <h2>Foundation for well-being: </h2>
       <h2>
         Consistent healthy routines are a strong foundation for stable

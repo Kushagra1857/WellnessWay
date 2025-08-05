@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Sad1a1a() {
   return (
     <div className="recommendations-container">
+      <Navbar/>
       <h1>
         That's good to hear. Keep an eye on how you're feeling, and don't
         hesitate to reach out if things change.

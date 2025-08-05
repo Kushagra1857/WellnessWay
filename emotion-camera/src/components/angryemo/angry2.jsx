@@ -1,11 +1,13 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import Navbar from "../Navbar";
 
 export default function Angry2() {
   const navigate = useNavigate();
 
   return (
     <div className="question-container">
+      <Navbar />
       <h2>
         Q: Sometimes even minor annoyances can add up. Do you find yourself
         getting annoyed by similar things frequently, or is this a one-off?

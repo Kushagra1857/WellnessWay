@@ -1,12 +1,13 @@
 // components/Fear1a1Low.jsx
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import Navbar from "../Navbar";
 export default function Fear1a1Low() {
   const navigate = useNavigate();
 
   return (
     <div className="question-container">
+      <Navbar/>
       <h2>
         Q: What physical sensations are you noticing in your body with this fear?
       </h2>

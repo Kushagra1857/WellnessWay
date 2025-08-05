@@ -1,13 +1,15 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import Navbar from "../Navbar";
 export default function Surprise1c1e() {
   const navigate = useNavigate();
 
   return (
     <div className="question-container">
+      <Navbar />
       <h2>
-        Q: When you step away, how do you know when you're ready to re-engage with the confusing situation?
+        Q: When you step away, how do you know when you're ready to re-engage
+        with the confusing situation?
       </h2>
       <ul className="option-list">
         <li>

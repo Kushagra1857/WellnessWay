@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Disgust1a3b1() {
   return (
     <div className="recommendation-container">
+      <Navbar/>
       <h2>Recommendation</h2>
       <ul>
         <li>Identify and label your emotions clearly.</li>

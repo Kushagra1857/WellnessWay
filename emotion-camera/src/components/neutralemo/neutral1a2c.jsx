@@ -1,12 +1,13 @@
 // components/neutral/Q3A2a3.jsx
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import Navbar from "../Navbar";
 export default function Neutral1a2c() {
   const navigate = useNavigate();
 
   return (
     <div className="question-container">
+      <Navbar/>
       <h2>
         How did spending quality time with someone contribute to your calm?
       </h2>

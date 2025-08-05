@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Surprise1c1a1() {
   return (
     <div className="recommendation-container">
+      <Navbar/>
      
       <ul>
         <li> When in doubt, consult multiple sources — books, articles, or expert opinions can offer diverse perspectives.</li>

@@ -1,11 +1,13 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import Navbar from "../Navbar";
 export default function Angry1a2() {
   const navigate = useNavigate();
 
   return (
     <div className="question-container">
+      <Navbar />
+     
       <h2>
         Q: Anger destroys everything. You must calm down and redirect your anger
         to some productive work. do you need some suggestions to eliminate your
@@ -19,7 +21,6 @@ export default function Angry1a2() {
           <button onClick={() => navigate("/angry1a1b")}>b) no </button>
         </li>
       </ul>
-
       <style jsx>{`
         .question-container {
           max-width: 700px;

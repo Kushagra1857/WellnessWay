@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar from "../Navbar";
 export default function Fear1a1b1() {
   return (
     <div className="recommendations-container">
+      <Navbar/>
 
       <ul>
         <li>Look around and name 5 things you see</li>
