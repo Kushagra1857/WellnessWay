@@ -16,7 +16,7 @@ export default function Home() {
       <div style={styles.overlay}>
         {/* Main Hero Card - Resized and Enhanced */}
         <div style={{ ...styles.card, animation: "fadeIn 1s ease-out" }}>
-          <h1 style={styles.heading}>Welcome to Wellness Way </h1>
+          <h1 style={styles.heading}>Welcome to Wellnsss Way </h1>
           <p style={styles.description}>
             Understand your emotions using real-time camera-based detection and
             explore calming strategies that truly help.

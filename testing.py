@@ -3,7 +3,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 
 # load model
-model=load_model('noraml-saving-best-model-of-all-epochs.h5')
+model=load_model('your_model') 
 
 video=cv2.VideoCapture(0)
 

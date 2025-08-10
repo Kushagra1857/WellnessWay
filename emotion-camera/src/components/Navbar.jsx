@@ -45,7 +45,7 @@ const Navbar = () => {
               "0 2px 8px rgba(45, 33, 33, 0.9), 0 0 20px rgba(63, 44, 44, 0.6)",
           }}
         >
-          WellnesssWay
+          WellnsssWay
         </div>
       </div>
 
