@@ -14,10 +14,10 @@ const AboutUs = () => {
         <div style={styles.topCardsSection}>
           {/* About Wellness Way Card */}
           <div style={styles.aboutCard}>
-            <h1 style={styles.cardTitle}>About Wellness Way</h1>
+            <h1 style={styles.cardTitle}>About Wellnsss Way</h1>
             <div style={styles.cardLine}></div>
             <p style={styles.cardDescription}>
-              Our platform <strong>Wellness Way</strong> builds an AI driven
+              Our platform <strong>Wellnsss Way</strong> builds an AI driven
               facial emotion recognition to analyze the emotional state of the
               person and then dive deeper into the analysis by questioning and
               providing the appropriate solutions and suggestions.
@@ -286,7 +286,7 @@ const styles = {
     background: "rgba(255, 255, 255, 0.98)",
     padding: "25px 20px",
     width: "300px",
-    height: "250px",
+    height: "300px",
     minWidth: "220px",
     borderRadius: "15px",
     textAlign: "center",
