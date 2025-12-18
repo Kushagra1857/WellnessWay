@@ -29,7 +29,7 @@ db/
 *.h5
 
 # Keep only the final model if needed (optional - uncomment below)
-!noraml-saving-best-model-of-all-epochs.h5
+noraml-saving-best-model-of-all-epochs.h5
 
 # === System/IDE files ===
 .DS_Store
